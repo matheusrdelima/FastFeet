@@ -1,0 +1,17 @@
+Olá, <strong>{{ name }}</strong>, tudo bem?
+<p>Estamos passando para lembrar que você possui um novo produto disponível para a retirada.</p>
+<h4>Detalhes da Entrega</h4>
+<p>
+  <strong>Destinatário: </strong> {{ recipient.name }} <br />
+  <strong>Rua:  </strong> {{ recipient.street }} <strong>Nº</strong> {{ recipient.number }} <br />
+  <strong>Complemento: </strong> {{ recipient.complement }} <br />
+  <strong>CEP: </strong> {{ recipient.zip_code }} <strong>Cidade: </strong> {{ recipient.city }} {{ recipient.state}} <br />
+</p>
+<h4>Detalhes do Produto</h2>
+<p>
+  <strong>Produto: </strong> {{ product }} <br />
+  <br />
+  <small>
+    As retiradas só podem ser feitas entre às 08:00 e 18:00h.
+  </small>
+</p>

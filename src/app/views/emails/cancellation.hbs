@@ -1,0 +1,13 @@
+Olá, <strong>{{ name }}</strong>, tudo bem?
+<p>Estamos passando para te avisar que a sua encomenda foi <strong>cancelada</strong>.</p>
+<h4>Detalhes da Entrega</h4>
+<p>
+  <strong>Destinatário: </strong> {{ recipient.name }} <br />
+  <strong>Rua:  </strong> {{ recipient.street }} <strong>Nº</strong> {{ recipient.number }} <br />
+  <strong>Complemento: </strong> {{ recipient.complement }} <br />
+  <strong>CEP: </strong> {{ recipient.zip_code }} <strong>Cidade: </strong> {{ recipient.city }} {{ recipient.state}} <br />
+</p>
+<h4>Detalhes do Produto</h2>
+<p>
+  <strong>Produto: </strong> {{ product }} <br />
+</p>
